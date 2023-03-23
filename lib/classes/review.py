@@ -1,7 +1,12 @@
 class Review:
+
+    all = []
     
     def __init__(self, viewer, movie, rating):
-        pass
+        if 1 <= {rating} <= 5:
+            self.rating = rating
+        self.viewer = viewer
+        self.movie = movie
 
     # rating property goes here!
 
